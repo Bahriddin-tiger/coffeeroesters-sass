@@ -2,13 +2,14 @@
     position: relative;
     padding-top: 116px;
     padding-bottom: 265px;
-    background-image:  url("../img/backcolor.png"),url("../img/cofe.png");
+    background-image:  url("../img/backcolor.png"),url("../img/cof.png");
     background-repeat:no-repeat ;
     background-size: 1380px cover, 710px 696px ;
     background-position:calc(50%) calc(0px),calc(50% + 365px) calc(50% + 24px) ;
     background-color: #f1d2ad;
     background-blend-mode: overlay, normal;
     padding-left: 130px;
+    margin-bottom: 20px;
 }
 
 .hero::before{

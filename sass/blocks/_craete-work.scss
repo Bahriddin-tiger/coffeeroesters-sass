@@ -1,0 +1,121 @@
+.craetew {
+    position: relative;
+    background-color: #0A775F;
+    background-image: url("../img/backcolor.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: content-box;
+    background-blend-mode: overlay;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    padding: 50px;
+}
+
+
+
+
+
+.craetew__box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.craetew__box::before{
+    position: absolute;
+    display: block;
+    width: 1800px;
+    height: 3px;
+    background-image: url("../img/line.png");
+    background-repeat: no-repeat;
+    content: "";
+}
+
+.craetew__span {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    margin-right: 393px;
+    border: 2px solid #f1d2ad;
+}
+
+
+
+
+.craetew__list {
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+    display: flex;
+    
+   
+    margin-right: 30px;
+    margin-bottom: 60px;
+}
+
+.craetew__item {
+    width: 433px;
+    margin-right: 40px;
+   background-color: #fff;
+}
+
+.craetew__item:nth-child(3){
+    margin-right: 0;
+}
+
+.craetew__namber {
+    margin-top: 20px;
+    margin-right: 20px;
+    text-align: right;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    font-variant: small-caps;
+    color: #333333;
+    opacity: 0.8;
+    margin-bottom: 45px;
+}
+
+.craetew__hiading {
+    margin: 0;
+    padding-left: 20px;
+    
+    padding-bottom: 10px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    font-variant: small-caps;
+    color: #333333;
+    text-align: left;
+}
+
+.craetew__text {
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 28px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #333333;
+    text-align: left;
+    padding-bottom: 40px;
+}
+.craetew__link {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 16px 24px;
+    width: 193px;
+    background-color: #C99B67;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #ede3e3;
+    border-radius: 100px;
+   
+}
