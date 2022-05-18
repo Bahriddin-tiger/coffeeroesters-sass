@@ -1,14 +1,15 @@
 .hero {
     position: relative;
-    padding-top: 116px;
+    margin-bottom: 20px;
+    padding-top: 96px;
+    padding-left: 130px;
     padding-bottom: 265px;
     background-image:  url("../img/backcolor.png"),url("../img/cofe.png");
     background-repeat:no-repeat ;
     background-size: 1380px cover, 710px 696px ;
-    background-position:calc(50%) calc(0px),calc(50% + 365px) calc(50% + 24px) ;
+    background-position:calc(50%) calc(0px),calc(50% + 365px) calc(50% + 33px) ;
     background-color: #f1d2ad;
     background-blend-mode: overlay, normal;
-    padding-left: 130px;
 }
 
 .hero::before{
@@ -51,6 +52,7 @@
     mix-blend-mode: normal;
 }
 .hero__link {
+    display: inline-block;
     text-decoration: none;
     font-weight: 500;
     font-size: 16px;

@@ -1,17 +1,20 @@
 .prepare {
     position: relative;
-    background-color: #C99B67;
+    margin-bottom: 300px;
+    padding-top: 70px;
+    padding-bottom: 390px;
     background-image: url("../img/backcolor.png");
     background-position: top center;
+    background-color: #C99B67;
     background-repeat: no-repeat;
     background-size: 1400px 700px;
     background-blend-mode: overlay;
     
     &::before{
     position: absolute;
-    display: block;
-    top:2680px;
-    left: calc(50% );
+    z-index: 10;
+    top:230px;
+    left: calc(50% - 700px);
     width: 140px;
     height: 144px;
     background-image: url("../img/befor.png");
@@ -30,7 +33,6 @@
 .prepare__title {
     display: block;
     margin: 0 auto;
-    padding-top: 50px;
     margin-bottom: 10px;
     font-weight: 700;
     font-size: 50px;
@@ -55,13 +57,15 @@
 }
 
 .prepare__list {
+    position: absolute;
+    top: 283px;
     list-style-type: none;
     margin: 0 ;
     padding: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 80px;
+    
 }
 
 .prepare__item {
@@ -77,12 +81,12 @@
 .prepare__heading {
     margin: 0;
     padding: 0;
-    padding-left: 30px;
+    padding-left: 20px;
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 30px;
     line-height: 35px;
-    font-variant: small-caps;
+    // font-variant: small-caps;
     color: #333333;
     text-transform: uppercase;
 }
@@ -90,7 +94,7 @@
 .prepare__textt {
     margin: 0;
     
-    padding-left: 30px;
+    padding-left: 20px;
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
